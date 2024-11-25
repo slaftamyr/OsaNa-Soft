@@ -1,0 +1,16 @@
+.Logo {
+  display: flex;
+  justify-content: center;
+  margin: 32px 0;
+}
+
+.logo-img {
+  height: 50px;
+  width: 55px;
+  border: 1px solid black;
+  border-radius: 26px;
+}
+.logo-img:hover {
+  box-shadow: 2px 2px 2px rgb(194, 233, 242);
+  transition: all 0.5s;
+}

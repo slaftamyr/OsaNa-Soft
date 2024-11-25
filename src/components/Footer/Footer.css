@@ -1,0 +1,42 @@
+.footer {
+  background-color: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  direction: ltr;
+}
+
+.contact-section {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.contact-icons a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.contact-icons a:hover {
+  color: #90e0ef;
+  transform: translateY(-2px);
+}
+
+.contact-icons i {
+  margin-right: 8px;
+}
