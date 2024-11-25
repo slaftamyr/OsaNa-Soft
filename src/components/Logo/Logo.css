@@ -1,13 +1,12 @@
 .Logo {
   display: flex;
   justify-content: center;
-  margin: 32px 0;
 }
 
 .logo-img {
-  height: 50px;
-  width: 55px;
-  border: 1px solid black;
+  height: 150px;
+  width: 280px;
+  border: 1px solid #dbe9f6;
   border-radius: 26px;
 }
 .logo-img:hover {

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Logo.css";
-import logo from "../../assets/OsaNa logo.webp";
+import logo from "../../assets/OsaNa logo.png";
 
 const Logo = (setCurrentPage) => {
   return (

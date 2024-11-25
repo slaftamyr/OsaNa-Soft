@@ -7,7 +7,7 @@ import About from "./components/About/About.jsx";
 import Contact from "./components/contact/Contact.jsx";
 import Logo from "./components/Logo/Logo.jsx";
 import Portfolio from "./components/Portfolio/Portfolio.jsx";
-import "./app.css";
+import "./App.css";
 const App = () => {
   const [currentPage, setCurrentPage] = useState("Home");
 
@@ -32,7 +32,6 @@ const App = () => {
     <div className="app">
       <header>
         <div className="logo">
-          OsaNa Soft
           <Logo />
         </div>
         <Navbar setCurrentPage={setCurrentPage} />
