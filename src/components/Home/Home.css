@@ -4,6 +4,7 @@
   align-items: center;
   min-height: 100vh;
   background-color: #dbe9f6;
+  padding: 0 10px; /* لتقليل المسافات على الحواف */
 }
 
 .home-container {
@@ -20,6 +21,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px; /* تباعد بين الصورة والمحتوى */
 }
 
 .home-image img {
@@ -50,7 +52,6 @@
 
 .contact-button {
   background-color: #0077b6;
-  color: white;
   border: none;
   padding: 12px 20px;
   font-size: 16px;
@@ -59,6 +60,37 @@
   transition: background-color 0.3s;
 }
 
+.contact-button a {
+  color: wheat;
+  text-decoration: none;
+}
+
 .contact-button:hover {
   background-color: #005f87;
+}
+
+/* تخصيص لتصميم الشاشات الصغيرة (الهواتف) */
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .home-image {
+    margin-bottom: 20px;
+  }
+
+  .home-title {
+    font-size: 36px;
+  }
+
+  .home-description {
+    font-size: 16px;
+  }
+
+  .contact-button {
+    padding: 10px 18px;
+    font-size: 14px;
+  }
 }

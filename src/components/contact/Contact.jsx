@@ -47,11 +47,18 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://facebook.com/username"
+            href="https://facebook.com/profile.php?id=100076710343784"
             target="_blank"
             rel="noreferrer"
           >
             <i className="fab fa-facebook"></i> Facebook
+          </a>
+          <a
+            href="https://chat.whatsapp.com/JvhRZSJNNCLH8q62S9kB3A"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-whatsapp"></i> WhatsApp
           </a>
         </div>
       </div>

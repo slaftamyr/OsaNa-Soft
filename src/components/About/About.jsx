@@ -38,20 +38,20 @@ const About = () => {
         <h2 className="contact-title">تواصل معنا</h2>
         <ul className="contact-list">
           <li>
-            <strong>الهاتف:</strong> +249-123-456789
+            <strong>الهاتف:</strong> +249969145040
           </li>
           <li>
             <strong>البريد الإلكتروني:</strong>{" "}
-            <a href="mailto:contact@osanasoft.com">contact@osanasoft.com</a>
+            <a href="osanasoft1010@gmail.com">osanasoft1010@gmail.com</a>
           </li>
           <li>
             <strong>فيسبوك:</strong>{" "}
             <a
-              href="https://facebook.com/osanasoft"
+              href="https://facebook.com/profile.php?id=100076710343784"
               target="_blank"
               rel="noopener noreferrer"
             >
-              https://facebook.com/osanasoft
+              https://facebook.com/profile.php?id=100076710343784
             </a>
           </li>
           <li>
@@ -67,11 +67,11 @@ const About = () => {
           <li>
             <strong>واتساب:</strong>{" "}
             <a
-              href="https://wa.me/249123456789"
+              href="https://wa.me/249969145040"
               target="_blank"
               rel="noopener noreferrer"
             >
-              https://wa.me/249123456789
+              https://wa.me/249969145040
             </a>
           </li>
         </ul>

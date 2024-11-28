@@ -7,21 +7,21 @@ const Footer = () => {
       <div className="contact-section" id="contact">
         <p>© 2024 OsaNa Soft. All rights reserved.</p>
         <div className="contact-icons">
-          <a href="https://wa.me/1234567890" target="_blank" rel="noreferrer">
+          <a href="https://wa.me/969145040" target="_blank" rel="noreferrer">
             <i className="fab fa-whatsapp"></i>
           </a>
           <a
-            href="https://linkedin.com/in/username"
+            href="https://linkedin.com/in/osana-soft"
             target="_blank"
             rel="noreferrer"
           >
             <i className="fab fa-linkedin"></i>
           </a>
-          <a href="mailto:example@example.com">
+          <a href="osanasoft1010@gmail.com">
             <i className="fas fa-envelope"></i>
           </a>
           <a
-            href="https://facebook.com/username"
+            href="https://facebook.com/profile.php?id=100076710343784"
             target="_blank"
             rel="noreferrer"
           >
