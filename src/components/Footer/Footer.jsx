@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="contact-section" id="contact">
         <p>© 2024 OsaNa Soft. All rights reserved.</p>
         <div className="contact-icons">
-          <a href="https://wa.me/969145040" target="_blank" rel="noreferrer">
+          <a href="https://wa.me/249969145040" target="_blank" rel="noreferrer">
             <i className="fab fa-whatsapp"></i>
           </a>
           <a

@@ -61,7 +61,7 @@ const About = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              https://linkedin.com/company/osanasoft
+              linkedin.com/company/osanasoft
             </a>
           </li>
           <li>
