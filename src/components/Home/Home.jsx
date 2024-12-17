@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-
+import mainImage from "../../assets/mainImage.jpg";
 const Home = () => {
   return (
     <div className="home">
@@ -22,10 +22,7 @@ const Home = () => {
           </button>
         </div>
         <div className="home-image">
-          <img
-            src="https://images.unsplash.com/photo-1493421419110-74f4e85ba126?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdlYiUyMHBhZ2UlMjBkZXNpZ24lMjBncmFwaGljfGVufDB8fDB8fHww"
-            alt="Design Illustration"
-          />
+          <img src={mainImage} alt="Design Illustration" />
         </div>
       </div>
     </div>

@@ -18,24 +18,25 @@
 }
 
 .contact-form {
-  background-color: #f9f9f9;
+  background-image: url(../../assets/backgroundcontact.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
 .form-group {
   margin-bottom: 15px;
   text-align: left;
 }
-
 .form-group label {
   display: block;
   font-size: 14px;
-  color: #333;
+  color: #b6dcec;
   margin-bottom: 5px;
 }
-
 .form-group input,
 .form-group textarea {
   width: 100%;
@@ -45,7 +46,6 @@
   border-radius: 4px;
   box-sizing: border-box;
 }
-
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
@@ -62,15 +62,12 @@
   cursor: pointer;
   transition: background-color 0.3s;
 }
-
 .submit-btn:hover {
   background-color: #005f87;
 }
-
 .social-links {
   margin-top: 30px;
 }
-
 .social-links h2 {
   font-size: 24px;
   color: #0077b6;
@@ -90,12 +87,10 @@
   transition: color 0.3s;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .social-icons a:hover {
   color: #005f87;
   transform: translateY(-1px);
 }
-
 .social-icons i {
   margin-right: 8px;
 }

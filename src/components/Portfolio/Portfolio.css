@@ -6,7 +6,7 @@
 
 .portfolio-title {
   font-size: 1.5rem;
-  color: #333;
+  color: #0d565e;
   margin-bottom: 1rem;
 }
 
@@ -21,6 +21,11 @@
   background: linear-gradient(135deg, #f9f9f9, #eaeaea);
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-image: url(../../assets/backgroundportfolio.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .description-list {
@@ -106,4 +111,23 @@
 
 .portfolio-link:hover {
   background-color: #0056b3;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* الخلفية المظلمة للـ Modal */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-image {
+  max-width: 90%;
+  max-height: 80%;
+  border-radius: 8px;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-
+import aboutImage from "../../assets/aboutImage.jpg";
 const About = () => {
   return (
     <div className="about-container">
@@ -27,11 +27,7 @@ const About = () => {
           </p>
         </div>
         <div className="about-image">
-          <img
-            src="https://via.placeholder.com/500x400"
-            alt="About Us"
-            className="image"
-          />
+          <img src={aboutImage} alt="About Us" className="image" />
         </div>
       </div>
       <div className="about-footer">
@@ -42,7 +38,7 @@ const About = () => {
           </li>
           <li>
             <strong>البريد الإلكتروني:</strong>{" "}
-            <a href="osanasoft1010@gmail.com">osanasoft1010@gmail.com</a>
+            <a href="mailto:osanasoft1010@gmail.com">osanasoft1010@gmail.com</a>
           </li>
           <li>
             <strong>فيسبوك:</strong>{" "}
