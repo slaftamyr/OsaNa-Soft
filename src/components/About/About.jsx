@@ -53,11 +53,11 @@ const About = () => {
           <li>
             <strong>لينكد إن:</strong>{" "}
             <a
-              href="https://linkedin.com/company/osanasoft"
+              href="https://www.linkedin.com/company/osana-soft/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              linkedin.com/company/osanasoft
+              linkedin.com/company/osana-soft
             </a>
           </li>
           <li>

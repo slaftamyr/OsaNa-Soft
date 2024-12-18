@@ -11,7 +11,7 @@ const Footer = () => {
             <i className="fab fa-whatsapp"></i>
           </a>
           <a
-            href="https://linkedin.com/in/osana-soft"
+            href="https://www.linkedin.com/company/osana-soft/"
             target="_blank"
             rel="noreferrer"
           >

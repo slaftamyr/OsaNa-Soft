@@ -64,7 +64,7 @@ const Contact = () => {
         <h2>تابعنا</h2>
         <div className="social-icons">
           <a
-            href="https://linkedin.com/in/username"
+            href="https://www.linkedin.com/company/osana-soft/"
             target="_blank"
             rel="noreferrer"
           >

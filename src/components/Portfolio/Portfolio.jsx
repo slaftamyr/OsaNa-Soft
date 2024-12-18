@@ -1,13 +1,7 @@
 import React, { useState } from "react";
 import "./Portfolio.css";
-import design1 from "../../assets/image1.jpg";
-import design2 from "../../assets/image2.jpg";
-import design3 from "../../assets/image3.jpg";
-import design4 from "../../assets/image4.jpg";
+import design1 from "../../assets/design1.jpg";
 
-import design5 from "../../assets/image5.jpg";
-import design6 from "../../assets/image6.jpg";
-import design7 from "../../assets/image7.jpg";
 const Portfolio = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
@@ -15,38 +9,8 @@ const Portfolio = () => {
   const designs = [
     {
       id: 1,
-      title: "تصميم خلفية جميلة ومتناسقة الالوان",
+      title: " تصميم لبراند منتجات محلية ",
       image: design1, // صورة التصميم
-    },
-    {
-      id: 2,
-      title: "تصميم خلفية جميلة ومتناسقة الالوان",
-      image: design2, // صورة التصميم
-    },
-    {
-      id: 3,
-      title: "تصميم خلفية جميلة ومتناسقة الالوان",
-      image: design3, // صورة التصميم
-    },
-    {
-      id: 4,
-      title: "تصميم خلفية جميلة ومتناسقة الالوان",
-      image: design4, // صورة التصميم
-    },
-    {
-      id: 5,
-      title: "تصميم خلفية جميلة ومتناسقة الالوان",
-      image: design5, // صورة التصميم
-    },
-    {
-      id: 6,
-      title: "تصميم خلفية جميلة ومتناسقة الالوان",
-      image: design6, // صورة التصميم
-    },
-    {
-      id: 7,
-      title: "تصميم خلفية جميلة ومتناسقة الالوان",
-      image: design7, // صورة التصميم
     },
   ];
 
@@ -128,7 +92,7 @@ const Portfolio = () => {
           </div>
         ))}
       </div>*/}
-      <h1 className="portfolio-title">تصاميم خلفيات متناسقة</h1>
+      <h1 className="portfolio-title">تصاميمنا </h1>
       <div className="portfolio-grid">
         {designs.map((design) => (
           <div className="portfolio-card" key={design.id}>
@@ -138,6 +102,7 @@ const Portfolio = () => {
               className="portfolio-image"
               onClick={() => openModal(design.image)} // فتح الصورة في الـ Modal
             />
+            <h2 className="portfolio-title">{design.title}</h2>
           </div>
         ))}
       </div>
