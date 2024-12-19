@@ -45,7 +45,7 @@ const Services = () => {
           <h3 className="service-card-title">كتابة المحتوى</h3>
           <p className="service-card-description">
             كتابة محتوى إبداعي يتناسب مع احتياجات السوق لزيادة التفاعل مع جمهورك
-            وتوصيل رسالتك بشكل احترافي.
+            !وتوصيل رسالتك بشكل احترافي.
           </p>
           <button className="service-button" onClick={handleOrderClick}>
             اطلب الآن

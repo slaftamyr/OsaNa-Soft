@@ -9,7 +9,7 @@ const Navbar = ({ setCurrentPage }) => {
         <li onClick={() => setCurrentPage("Services")}>خدماتنا</li>
         <li onClick={() => setCurrentPage("About")}>من نحن</li>
         <li onClick={() => setCurrentPage("Portfolio")}>معرض الاعمال</li>
-        <li onClick={() => setCurrentPage("Contact")}>!تواصل معنا</li>
+        <li onClick={() => setCurrentPage("Contact")}>تواصل معنا!</li>
       </ul>
     </nav>
   );
